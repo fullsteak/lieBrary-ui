@@ -1,0 +1,14 @@
+.modal {
+  position: fixed;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 40rem;
+  height: 80%;
+  display: none;
+}
+
+.modal-show {
+  display: block;
+}

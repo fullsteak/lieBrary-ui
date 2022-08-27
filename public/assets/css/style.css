@@ -1,0 +1,108 @@
+:root {
+	--header-height: 3rem;
+
+	/*========== Font and typography ==========*/
+	--body-font: 'Poppins', sans-serif;
+	--biggest-font-size: 2rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1.125rem;
+	--normal-font-size: 0.938rem;
+	--small-font-size: 0.813rem;
+
+	/*========== Colors ==========*/
+	/* --color: #2B2D42; */
+	--color-alt: #534B62;
+	--first-color-send: #3594BF;
+	--title-color: #161212;
+	--text-color: black;
+	--text-color-light: black;
+	--body-color: #fff;
+	--container-color: #fff;
+
+	/*========== Font and typography ==========*/
+	--body-font: 'Poppins', sans-serif;
+	--biggest-font-size: 2rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1.125rem;
+	--normal-font-size: 0.938rem;
+	--small-font-size: 0.813rem;
+
+	/*========== Font weight ==========*/
+	--font-semi-bold: 600;
+	--font-bold: 700;
+
+	/*========== Margenes ==========*/
+	--mb-1: 0.5rem;
+	--mb-2: 1rem;
+	--mb-3: 1.5rem;
+	--mb-4: 2rem;
+	--mb-5: 2.5rem;
+	--mb-6: 3rem;
+	/*========== z index ==========*/
+
+	--z-tooltip: 10;
+	--z-fixed: 100;
+}
+
+@media screen and (min-width: 968px) {
+	:root {
+		--biggest-font-size: 3rem;
+		--h2-font-size: 1.75rem;
+		--h3-font-size: 1.25rem;
+		--normal-font-size: 1rem;
+		--small-font-size: 0.875rem;
+	}
+}
+
+/*========== BASE ==========*/
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	background-color: var(--body-color);
+	color: var(--text-color);
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: var(--font-semi-bold);
+	color: var(--title-color);
+}
+
+h4 {
+	color: black;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}

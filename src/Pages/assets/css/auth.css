@@ -1,0 +1,13 @@
+.main__auth {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.auth__login {
+  height: 50%;
+  width: 25rem;
+  border-radius: 10px;
+}

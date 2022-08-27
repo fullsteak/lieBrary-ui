@@ -1,0 +1,11 @@
+.home {
+  min-height: 100vh;
+  padding: calc(var(--header-height) + 1.7rem) 1rem var(--header-height) 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--color);
+}
+.home__content {
+  height: inherit;
+  width: 70rem;
+}
